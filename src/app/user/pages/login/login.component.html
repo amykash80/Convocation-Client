@@ -109,7 +109,7 @@
                         <h2>Log In</h2>
                     </div>
                     <div class="row">
-                        <form #myForm=ngForm class="form-group">
+                        <form #myForm="ngForm" class="form-group">
                             <div class="row">
                                 <input type="text" id="username" class="form__input" placeholder="Username"
                                     name="username" #userName="ngModel" [(ngModel)]="userLogin.userName"
